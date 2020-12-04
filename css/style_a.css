@@ -41,7 +41,7 @@ header ul li a:hover {
     text-decoration: none; 
     color: #43BD8E;
 }
-
+#about_main{width: 100%;height: 100vh;}
 #about_f {
     width: 960px;
     margin: 250px auto 0 auto;
@@ -132,8 +132,8 @@ header ul li a:hover {
 
 }
 .about_m {
-    
-    margin: 300px auto 150px auto;
+    height: 100vh;
+    position: relative;
 }
 #im {
     text-align: center;
@@ -141,6 +141,7 @@ header ul li a:hover {
     color: white;
     font-size: 70px; 
     font-weight: 700; 
+    padding-top: 15vh;
 }
 #minji {
     text-align: center;
@@ -148,31 +149,42 @@ header ul li a:hover {
     color: white;
     font-size: 70px; 
     font-weight: 700; 
+    padding-bottom: 5vh;
 }
 .wrap {
     margin: 70px auto 70px auto;
     width: 1000px;
-    height: 300px;
+    height: 350px;
+    position: relative;
     overflow: hidden;
 }
 .container{ 
     width: 1000%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: left 0.3s ease-in-out;
 }
 .item {
-    text-align: center;float: left;width: 1000px;height: 300px;}
+    text-align: center;
+    float: left;
+    width: 1000px;
+    height: 350px;
+    margin-top: 50px;
+    
+}
 .container p{
     font-family: 'Noto Sans KR', sans-serif;
     color: white;
     font-size: 70px; 
     font-weight: 700; 
 }
-.btn{position: absolute;z-index: 100;width: 1000px;height: 300px;}
+.btn{z-index:1000;width: 100%;}
 .btn a{
     text-decoration: none;
     color: white;
     font-size: 80px;
-    vertical-align:middle;
 }
 .btn a:hover {color: #43BD8E;cursor: pointer;}
-.prev {}
-.next {}
+.prev {left: 15%;position:absolute;top:45%;}
+.next {right: 15%;position:absolute;top:45%;}

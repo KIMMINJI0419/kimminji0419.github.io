@@ -42,3 +42,19 @@ header ul li a:hover {
     text-decoration: none; 
     color: #43BD8E;
 }
+#main_txt {margin: auto;}
+#cont {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cont img{width: 250px;}
+#cont p{
+    align-items: baseline;
+    margin-left: 50px;
+    font-family: 'Khula', sans-serif;
+    font-size: 100px; 
+    font-weight: 700; 
+    color: white;
+}
