@@ -71,14 +71,14 @@ header ul li a:hover {
 .view .view_btn{float: left;}
 .view .view_btn1{float: left;}
 
-.p_image_j{width: 45%;top:300px;right: 90px;position: absolute;z-index: -5;}
-.p_image_j img{width: 100%;}
+.p_image_j{height:100vh;top:0;right:0;position: absolute;z-index: -5;}
+.p_image_j img{height: 100%;}
 
 .p_image_l{width: 45%;top:300px;right: 90px;position: absolute;z-index: -5;}
 .p_image_l img{width: 100%;}
 
-.p_image_le{width: 45%;top:300px;right: 90px;position: absolute;z-index: -5;}
-.p_image_le img{width: 100%;}
+.p_image_le{height:100vh;top:0;right: 0;position: absolute;z-index: -5;}
+.p_image_le img{height: 100%;}
 
 .p_image_y{height:100vh;top:0;right: 0;position: absolute;z-index: -5;}
 .p_image_y img{height: 100%;}
@@ -86,11 +86,11 @@ header ul li a:hover {
 .p_image_m{height:90vh; top:10vh;right: 160px;position: absolute;z-index: -5;}
 .p_image_m img{height: 100%;}
 
-.p_image_d{width: 45%;top:300px;right: 90px;position: absolute;z-index: -5;}
-.p_image_d img{width: 100%;}
+.p_image_d{height:100vh;top:0;right: 0;position: absolute;z-index: -5;}
+.p_image_d img{height: 100%;}
 
-.p_image_t{width: 45%;top:300px;right: 90px;position: absolute;z-index: -5;}
-.p_image_t img{width: 100%;}
+.p_image_t{height:100vh;top:0;right: 0;position: absolute;z-index: -5;}
+.p_image_t img{height: 100%;}
 
 #con_s_l {float: left;width: 165px;}
 #con_s_l li{font-family: 'Khula', sans-serif;font-size: 20px;color: #fff;font-weight: 700;margin-bottom: 15px;line-height: 20px;}

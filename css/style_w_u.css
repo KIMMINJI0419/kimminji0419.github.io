@@ -95,11 +95,16 @@ header ul li a:hover {
 .highlighter{
     position: absolute;
     top: 180px;
-    width: 690px;
+    width: 0px;
     height: 70px;
     background-color: #D99A30;
     margin-left: 20px;
     z-index: -1;
+    transition: width 0.3s ease-in-out;
+}
+.highlighter.hl{
+    width: 690px;
+    transition: width 0.3s ease-in-out;
 }
 .view {margin-top: 50px;}
 .line{

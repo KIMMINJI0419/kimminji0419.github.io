@@ -17,20 +17,20 @@ console.log("Script Load");
         });
 
         function back() {
-        if(1 < img_p){
-            imgs.animate({
-                left:'+=1000px'
-            });
-            img_p--;
-            }
+          if(1 < img_p){
+              imgs.animate({
+                  left:'+=1000px'
+              });
+              img_p--;
+              }
         }
         function next() {
-        if(img_c > img_p){
-          imgs.animate({
-            left:'-=1000px'
-          });
-          img_p++;
-          console.log(img_p);
+          if(img_c > img_p){
+            imgs.animate({
+              left:'-=1000px'
+            });
+            img_p++;
+            console.log(img_p);
         }
       }
     });

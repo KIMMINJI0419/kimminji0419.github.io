@@ -94,20 +94,32 @@ header ul li a:hover {
 .highlighter{
     position: absolute;
     top: 180px;
-    width: 680px;
+    width: 0px;
     height: 70px;
     background-color:#E9B77B;
     margin-left: 20px;
     z-index: -1;
+    transition: width 0.3s ease-in-out;
 }
-.highlighter2{
+.highlighter.hl{
+    width: 680px;
+    transition: width 0.3s ease-in-out;
+}
+.highlighter1{
     position: absolute;
     top: 180px;
-    width: 700px;
+    width: 0px;
     height: 70px;
     background-color:#5B52FF;
     margin-left: 20px;
-    z-index: -1;}
+    z-index: -1;
+    transition: width 0.3s ease-in-out;
+}
+.highlighter1.hl1{
+    width: 700px;
+    transition: width 0.3s ease-in-out;
+}
+
 .view {margin-top: 50px;}
 .line{
     width: 150px;
